@@ -7,7 +7,9 @@ Initial project screen:
 <div style="text-align:center;">
     <img src="https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/assets/74947224/638be419-7d9d-4031-859a-42d6fbd5d091" width="80%">
 </div>
+
 Project screen after results:
+
 1. Predict sentiment with example text
 <div style="text-align:center;">
     <img src="https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/assets/74947224/b7d7509f-91a2-44a8-b753-b0301d749da3" width="80%">
