@@ -1,10 +1,9 @@
 # IndoBERT WebApp Sentiment Analysis using Streamlit for Indonesian
 
 ## Overview
-
+This project allows to predict sentiment based on text input or text examples. The WebApp was built with streamlit and uses LLM for the IndoBERT-Sentiment-Analysis text classification task which is the result of fine-tuning the IndoBERT pretrained model on the IndoNLU SmSA dataset. The following repository contains the source code for the IndoBERT-Sentiment-Analysis fine-tuning code: [GitHub Repository](https://github.com/crypter70/Sentiment-Analysis-with-IndoBERT-Fine-tuning-and-IndoNLU-SmSA-Dataset).
 
 Initial project screen:
-
 
 Project screen after results:
 
@@ -30,8 +29,10 @@ Project screen after results:
     streamlit run App.py
     ```
 
-## How to Use
+## How to Use WebApp
+1. Predict sentiment with examples text
 
+2. Predict sentiment with input text
 
 
 ## Read more about
