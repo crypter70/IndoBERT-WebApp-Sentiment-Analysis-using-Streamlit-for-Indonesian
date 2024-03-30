@@ -8,7 +8,10 @@ Initial project screen:
 Project screen after results:
 ![Screenshot 2024-03-30 at 21 45 28](https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/assets/74947224/241a2812-4314-4553-85b5-58832b12fdd2)
 
-<img src="https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/assets/74947224/4a731dec-98d9-4efd-8337-04618cb832ba" width=80%>
+<div style="text-align:center;">
+    <img src="https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/assets/74947224/4a731dec-98d9-4efd-8337-04618cb832ba" width="90%">
+</div>
+
 
 
 ## Installation
