@@ -1,4 +1,5 @@
 .DS_Store
 .env
+*.ipynb
 *Flask App
 *-checkpoint.ipynb
