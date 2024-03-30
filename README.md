@@ -48,5 +48,5 @@ Project screen after results:
 
 ## Read more about
 1. [IndoBERT-Sentiment-Analysis](https://huggingface.co/crypter70/IndoBERT-Sentiment-Analysis)
-2. [Streamlit](https://docs.streamlit.io/){:target="_blank", rel="noopener"}
+2. [Streamlit](https://docs.streamlit.io/, {:target="_blank"})
 
