@@ -34,7 +34,7 @@ def main():
     example_list = ["Doi asik bgt orangnya", "Ada pengumuman nih gaiss, besok liburr", "Kok gitu sih kelakuannya"]
     options = example_list + ["Input a new text ..."]
 
-    selection = st.selectbox("Example Text", options=options)
+    selection = st.selectbox("Examples Text", options=options)
 
     text = ""
 
