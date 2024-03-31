@@ -43,7 +43,11 @@ Project screen after results:
 
 ## How to Use WebApp
 1. Predict sentiment with examples text
-![GIF1](https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/assets/74947224/2052551b-faed-4891-9d75-21c2fd7e16ee)
+<!-- ![GIF1]() -->
+
+<div style="text-align:center;">
+    <img src="https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/assets/74947224/2052551b-faed-4891-9d75-21c2fd7e16ee" width="80%">
+</div>
 
 2. Predict sentiment with input text
 
