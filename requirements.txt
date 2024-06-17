@@ -1,3 +1,6 @@
 streamlit
 transformers
 pillow
+torch
+torchvision
+torchaudio
