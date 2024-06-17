@@ -1,5 +1,6 @@
 .DS_Store
 .env
+/IndoBERT-Sentiment-Analysis
 *.ipynb
 *Flask App
 *-checkpoint.ipynb
