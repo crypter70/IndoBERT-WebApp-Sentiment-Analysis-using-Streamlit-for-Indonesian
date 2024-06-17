@@ -2,7 +2,9 @@ import streamlit as st
 from transformers import pipeline
 from PIL import Image
 
+
 sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
+
 
 def getEmoji(label, score):
     if label == "POSITIVE":
@@ -27,9 +29,8 @@ def getSentiment(text):
 def main():
     
     st.title("Sentiment Analysis WebApp 😊😐🙁")
-    st.subheader("Indonesian and English")
-    st.text("Analyzing textual data provided by the user to identify sentiments within it.")
-    st.text("")   
+    st.markdown("""Language: Indonesian""")
+    st.markdown("This app will predict the sentiment (positive, neutral, negative) of the sentence entered by the user.")   
 
     example_list = ["Doi asik bgt orangnya", "Ada pengumuman nih gaiss, besok liburr", "Kok gitu sih kelakuannya"]
     options = example_list + ["Input a new text ..."]
