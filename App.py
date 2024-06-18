@@ -1,21 +1,28 @@
 import streamlit as st
 from transformers import pipeline
 from PIL import Image
-
+import path
+import sys
 
 sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
 
+dir = path.Path(__file__).abspath()
+sys.path.append(dir.parent.parent)
+
+path_to_image_1 = './images/positive.PNG'
+path_to_image_2 = './images/neutral.PNG'
+path_to_image_3 = './images/negative.PNG'
 
 def getEmoji(label, score):
     if label == "POSITIVE":
         # image = Image.open('./images/positive.PNG')
-        image = Image.open('positive.PNG')
+        image = Image.open(path_to_image_1)
     elif label == "NEUTRAL":
         # image = Image.open('./images/neutral.PNG')
-        image = Image.open('neutral.PNG')
+        image = Image.open(path_to_image_2)
     elif label == "NEGATIVE":
         # image = Image.open('./images/negative.PNG')
-        image = Image.open('negative.PNG')
+        image = Image.open(path_to_image_3)
     
     st.text("")
     st.write("Score: ", score)
