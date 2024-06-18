@@ -9,13 +9,13 @@ sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-S
 def getEmoji(label, score):
     if label == "POSITIVE":
         # image = Image.open('./images/positive.PNG')
-        image = Image.open('/images/positive.PNG')
+        image = Image.open('positive.PNG')
     elif label == "NEUTRAL":
         # image = Image.open('./images/neutral.PNG')
-        image = Image.open('/images/neutral.PNG')
+        image = Image.open('neutral.PNG')
     elif label == "NEGATIVE":
         # image = Image.open('./images/negative.PNG')
-        image = Image.open('/images/negative.PNG')
+        image = Image.open('negative.PNG')
     
     st.text("")
     st.write("Score: ", score)
