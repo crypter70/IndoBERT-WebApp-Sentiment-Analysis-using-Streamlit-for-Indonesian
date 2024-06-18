@@ -6,7 +6,7 @@ import sys
 
 sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
 
-dir = path.Path(__file__).abspath()
+dir = path.Path(__file__).absolute()
 sys.path.append(dir.parent.parent)
 
 path_to_image_1 = 'positive.PNG'
