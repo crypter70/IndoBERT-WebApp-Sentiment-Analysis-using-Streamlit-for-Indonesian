@@ -5,7 +5,7 @@ from PIL import Image
 sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
 
 path_to_image_1 = 'positive.png'
-path_to_image_2 = 'neutral.PNG'
+path_to_image_2 = 'neutral.png'
 path_to_image_3 = 'negative.png'
 
 
