@@ -2,6 +2,3 @@ streamlit
 transformers==4.41.2
 pillow
 torch
-# torchvision
-# torchaudio
-# path
