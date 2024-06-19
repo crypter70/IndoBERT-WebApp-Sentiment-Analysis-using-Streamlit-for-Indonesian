@@ -12,9 +12,12 @@ sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-S
 
 # file_path = 'https://raw.githubusercontent.com/crypter70/My/main/World-Universities-EDA/world-uni-rankings.csv'
 
-path_to_image_1 = 'https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/blob/main/positive.png'
-path_to_image_2 = 'https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/blob/main/neutral.PNG'
-path_to_image_3 = 'https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/blob/main/negative.png'
+# path_to_image_1 = 'https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/blob/main/positive.png'
+# path_to_image_2 = 'https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/blob/main/neutral.PNG'
+# path_to_image_3 = 'https://github.com/crypter70/IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/blob/main/negative.png'
+path_to_image_1 = 'positive.png'
+path_to_image_2 = 'neutral.PNG'
+path_to_image_3 = 'negative.png'
 
 # def get_image_path(image_name):
 #     current_dir = os.path.dirname(__file__)
