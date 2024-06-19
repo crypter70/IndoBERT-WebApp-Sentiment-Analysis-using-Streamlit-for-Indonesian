@@ -1,9 +1,9 @@
 import streamlit as st
 from transformers import pipeline
 from PIL import Image
-import path
-import sys
-import os
+# import path
+# import sys
+# import os
 
 sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
 
