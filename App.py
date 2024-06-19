@@ -9,9 +9,9 @@ sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-S
 dir = path.Path(__file__).absolute()
 sys.path.append(dir.parent.parent)
 
-path_to_image_1 = 'positive.PNG'
-path_to_image_2 = 'neutral.PNG'
-path_to_image_3 = 'negative.PNG'
+path_to_image_1 = 'IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/positive.PNG'
+path_to_image_2 = 'IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/neutral.PNG'
+path_to_image_3 = 'IndoBERT-WebApp-Sentiment-Analysis-using-Streamlit-for-Indonesian/negative.PNG'
 
 def getEmoji(label, score):
     if label == "POSITIVE":
