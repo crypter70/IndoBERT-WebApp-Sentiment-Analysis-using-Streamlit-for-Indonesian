@@ -11,13 +11,10 @@ path_to_image_3 = 'negative.png'
 
 def getEmoji(label, score):
     if label == "POSITIVE":
-        # image = Image.open('./images/positive.PNG')
         image = Image.open(path_to_image_1)
     elif label == "NEUTRAL":
-        # image = Image.open('./images/neutral.PNG')
         image = Image.open(path_to_image_2)
     elif label == "NEGATIVE":
-        # image = Image.open('./images/negative.PNG')
         image = Image.open(path_to_image_3)
     
     st.text("")
