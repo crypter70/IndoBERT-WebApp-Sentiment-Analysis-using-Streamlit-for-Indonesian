@@ -1,8 +1,11 @@
 import streamlit as st
-from transformers import pipeline
+# from transformers import pipeline
 from PIL import Image
+from huggingface_hub import InferenceClient
 
-sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
+
+client = InferenceClient()
+# sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
 
 path_to_image_1 = 'positive.png'
 path_to_image_2 = 'neutral.png'
@@ -23,8 +26,10 @@ def getEmoji(label, score):
     
 
 def getSentiment(text):
-    label = sentiment_pipeline(text)[0]['label']
-    score = str(sentiment_pipeline(text)[0]['score'])[:5]
+    output = client.text_classification(model="crypter70/IndoBERT-Sentiment-Analysis", text=text)
+
+    label = output[0].label
+    score = str(output[0].score)[:5]
 
     return label, score
 
