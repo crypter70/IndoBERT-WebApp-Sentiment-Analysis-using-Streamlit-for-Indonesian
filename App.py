@@ -4,8 +4,14 @@ from PIL import Image
 from huggingface_hub import InferenceClient
 
 
-client = InferenceClient()
-# sentiment_pipeline = pipeline("text-classification", model="crypter70/IndoBERT-Sentiment-Analysis")
+# with streamlit cloud deployment
+client = InferenceClient(token=st.secrets["api_token"])
+
+# from dotenv import load_dotenv
+# load_dotenv()
+
+# without deployment
+# client = InferenceClient()
 
 path_to_image_1 = 'positive.png'
 path_to_image_2 = 'neutral.png'
